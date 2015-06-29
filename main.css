@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font font-size: 16px;
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a: hover {
+  color: white;
+}
+
+.side-bar {
+  float: left;
+  background-color: darkgrey;
+  width: 100px;
+  height: 1000px;
+}
+
+.side-bar a {
+  text-align: center;
+}
+
+.body {
+  padding-left: 120px;
+}
