@@ -58,19 +58,19 @@
 
         <div id="contact-form" class="border col-md-12">
 
-          <form class="form-inline">
+          <form id="adminLogin" class="form-inline" onSubmit="return checkInput()">
 
             <div class="form-group">
-              <label class="sr-only" for="exampleInputUsername3">Email address</label>
-              <input type="username" class="form-control" id="exampleInputUsername3" placeholder="Username">
+              <label class="sr-only" for="inputUsername">Email address</label>
+              <input type="text" class="form-control" id="inputUsername" placeholder="Username">
             </div>
 
             <div class="form-group"> 
-              <label class="sr-only" for="exampleInputPassword3">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+              <label class="sr-only" for="inputPassword">Password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
             </div>
 
-            <button type="submit" class="btn btn-default" onClick="output();">Sign in</button>
+            <button type="submit" class="btn btn-default"  onKeyPress="checkInput" onClick="checkInput">Sign in</button>
             
           </form>
 
