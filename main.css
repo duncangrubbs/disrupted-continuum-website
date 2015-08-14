@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+@import url(http://fonts.googleapis.com/css?family=Piedra);
 
 .body {
   padding-top: 15px;
@@ -8,6 +7,7 @@
 }
 
 .text {
-	font-family: 'Economica', 700;
-	font-size: 105px;
+	padding-top: 20px;
+	font-family: 'Piedra';
+	font-size: 90px;
 }
