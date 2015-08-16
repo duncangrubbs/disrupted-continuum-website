@@ -7,7 +7,7 @@ function checkInput() {
 
 	//checking if the username and password are correct
 	if (inputUsername == "duncangrubbs" & inputPassword == "duncan11") {
-		console.log("test");
+		alert("test");
 		window.open("admin.html");
 
 	}
