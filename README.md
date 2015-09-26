@@ -1,4 +1,4 @@
-Disrupted Continum Website.
+Disrupted Continuum Website.
 
 Welcome to the Disrupted Continuum Website Repository.
 
@@ -7,9 +7,8 @@ If you would like to contribute please email me at duncan.grubbs@gmail.com about
 how you can help. The website is still very much being made.
 
 To Do:
-1. Get home page info and add it to website
-2. Make final changes
-3. Get a domain name
-4. Get a host
-5. Finalize
-6. Launch
+1. Make final changes
+2. Get a domain name
+3. Get a host
+4. Finalize
+5. Launch
