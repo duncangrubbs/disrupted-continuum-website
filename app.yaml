@@ -4,13 +4,20 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
+
 handlers:
-- url: ../styles/css
-  static_dir: styles
-- url: ../scripts/js
-  static_dir: scripts
-- url: /.*
+- url: /bower_components
+  static_dir: bower_components
+
+- url: /name
   script: main.app
+
+- url: /
+  static_files: app/index.html
+  upload: app/index\.html
+
+- url: /
+  static_dir: app
 
 libraries:
 - name: webapp2
